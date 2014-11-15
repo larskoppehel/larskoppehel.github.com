@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+  color: #282828;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+a {
+  color: #282828;
+  
+}
+a:hover {
+  color: #ff6600;
+  
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+main > header {
+  margin-bottom: 3em;
+}
+
+main > section {
+  margin-bottom: 2em;
+}
+
+header > h1, header > h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  margin-top: 0em;
+  margin-bottom: 0.2em;
+}
+
+header > h1 {
+  font-size: 2.5em;
+}
+header > h2 {
+  font-size: 1.5em;
+}
+
+main {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 1em;
+  font-weight: 100;  
+}
+
+/*
+  main section {
+    clear: both;
+    
+  }
+  
+  main section header {
+    float: left;
+  }
+  
+  main section article {
+    float: right;
+  }
+  
+  
+  .imglnk {
+      width: 48px;
+      height: 48px;
+      display:inline-block;
+  }
+  
+  #instagram {
+      background: url("img/instagram_b_48_1px.png"); 
+  }
+  #instagram:hover {
+      background: url("img/instagram_c_48_1px.png");
+  }
+  #twitter {
+      background: url("img/twitter_b_48_1px.png");   
+  }
+  #twitter:hover {
+      background: url("img/twitter_c_48_1px.png");
+  }
+  #linkedin {
+      background: url("img/linkedin_b_48_1px.png");
+      
+  }
+  #linkedin:hover {
+      background: url("img/linkedin_c_48_1px.png");
+  }
+  #tumblr {
+      background: url("img/tumblr_b_48_1px.png");   
+  }
+  #tumblr:hover {
+      background: url("img/tumblr_c_48_1px.png");
+}
+*/
